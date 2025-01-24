@@ -42,6 +42,7 @@ Ejemplos de algunas consultas SQL realizadas :
    SELECT title AS Peliculas
    FROM film
    WHERE length >120;
+   ```
 
 2. **Nombres de todos los actores:**
    - Se identifican todos los actores de las películas.Se muestran los Nombres y Apellidos.
@@ -49,6 +50,7 @@ Ejemplos de algunas consultas SQL realizadas :
    ```sql
   SELECT DISTINCT first_name AS Nombre ,last_name AS Apellido 
   FROM actor;
+  ```
 
 3. **Actores que aparecen en la película 'Indian Love':**
    - Se identifican todos los actores que aparecen en la película 'Indian Love',se muestran los Nombres y Apellidos
@@ -59,7 +61,7 @@ Ejemplos de algunas consultas SQL realizadas :
   INNER JOIN film_actor fa ON a.actor_id =fa.actor_id
   INNER JOIN film f ON f.film_id = fa.film_id
   WHERE f.title = 'Indian Love';
-   
+  ``` 
 
 ## Requisitos
 
