@@ -26,9 +26,9 @@ La base de datos **Sakila** contiene información sobre películas, actores, cli
 
 El objetivo principal de este ejercicio es poner en práctica las habilidades en SQL a través de una serie de consultas complejas sobre la base de datos **Sakila**. Al resolver estas consultas, podrás demostrar tu capacidad para:
 
-Manipular datos: Extraer, filtrar y ordenar información relevante.
-Unir tablas: Relacionar diferentes entidades para obtener resultados más completos.
-Agrupar datos: Calcular estadísticas.
+- Manipular datos: Extraer, filtrar y ordenar información relevante.
+- Unir tablas: Relacionar diferentes entidades para obtener resultados más completos.
+- Agrupar datos: Calcular estadísticas.
 
 
 ## Consultas Realizadas
