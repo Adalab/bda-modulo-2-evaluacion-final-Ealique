@@ -45,23 +45,23 @@ Ejemplos de algunas consultas SQL realizadas :
    ```
 
 2. **Nombres de todos los actores:**
-   - Se identifican todos los actores de las películas.Se muestran los Nombres y Apellidos.
+   - Se identifican todos los actores de las películas.Se muestran los Nombres y Apellidos
 
    ```sql
-  SELECT DISTINCT first_name AS Nombre ,last_name AS Apellido 
-  FROM actor;
-  ```
+   SELECT DISTINCT first_name AS Nombre ,last_name AS Apellido 
+   FROM actor;
+   ```
 
 3. **Actores que aparecen en la película 'Indian Love':**
    - Se identifican todos los actores que aparecen en la película 'Indian Love',se muestran los Nombres y Apellidos
 
    ```sql
-  SELECT  a.first_name AS Nombre ,a.last_name AS Apellido 
-  FROM actor a 
-  INNER JOIN film_actor fa ON a.actor_id =fa.actor_id
-  INNER JOIN film f ON f.film_id = fa.film_id
-  WHERE f.title = 'Indian Love';
-  ``` 
+   SELECT  a.first_name AS Nombre ,a.last_name AS Apellido 
+   FROM actor a 
+   INNER JOIN film_actor fa ON a.actor_id =fa.actor_id
+   INNER JOIN film f ON f.film_id = fa.film_id
+   WHERE f.title = 'Indian Love';
+   ``` 
 
 ## Requisitos
 
